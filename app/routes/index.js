@@ -7,6 +7,7 @@ router.post('/add', async (ctx) => {
         const req = ctx.request.body;
         const newRest = new Restaurant();
         newRest.name = req.name;        
+        newRest.address = req.address;
         newRest.cuisine = req.cuisine || [];
         newRest.lon = req.lon;
         newRest.lat = req.lat;

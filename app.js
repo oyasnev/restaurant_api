@@ -9,6 +9,9 @@ const port = 8000;
 
 // connect to db
 mongoose.connect(db.url);
+if (db.importData) {
+    require('./app/data/import_data').importData();
+}
 
 app.use(bodyParser());
 

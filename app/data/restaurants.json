@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Mission Chinese Food",
+        "address": "171 E Broadway, New York, NY 10002",
+        "lat": 40.713829,
+        "lon": -73.989667,
+        "cuisine": [
+            "Asian"
+        ],
+        "rating": 4.3,
+        "votes": 56
+    },
+    {
+        "name": "Emily",
+        "address": "919 Fulton St, Brooklyn, NY 11238",
+        "lat": 40.683555,
+        "lon": -73.966393,
+        "cuisine": [
+            "Pizza",
+            "Italien"
+        ],
+        "rating": 3.8,
+        "votes": 143
+    },
+    {
+        "name": "Kang Ho Dong Baekjeong",
+        "address": "1 E 32nd St, New York, NY 10016",
+        "lat": 40.747143,
+        "lon": -73.985414,
+        "cuisine": [
+            "Asian"
+        ],
+        "rating": 4.7,
+        "votes": 12
+    },
+    {
+        "name": "Katz's Delicatessen",
+        "address": "205 E Houston St, New York, NY 10002",
+        "lat": 40.722216,
+        "lon": -73.987501,
+        "cuisine": [
+            "American"
+        ],
+        "rating": 3.5,
+        "votes": 567
+    },
+    {
+        "name": "Roberta's Pizza",
+        "address": "261 Moore St, Brooklyn, NY 11206",
+        "lat": 40.705089,
+        "lon": -73.933585,
+        "cuisine": [
+            "Pizza",
+            "Italien"
+        ],
+        "rating": 4.8,
+        "votes": 32
+    },
+    {
+        "name": "Hometown BBQ",
+        "address": "454 Van Brunt St, Brooklyn, NY 11231",
+        "lat": 40.674925,
+        "lon": -74.016162,
+        "cuisine": [
+            "American"
+        ],
+        "rating": 4.1,
+        "votes": 123
+    },
+    {
+        "name": "Superiority Burger",
+        "address": "430 E 9th St, New York, NY 10009",
+        "lat": 40.727397,
+        "lon": -73.983645,
+        "cuisine": [
+            "American"
+        ],
+        "rating": 3.9,
+        "votes": 64
+    },
+    {
+        "name": "The Dutch",
+        "address": "131 Sullivan St, New York, NY 10012",
+        "lat": 40.726584,
+        "lon": -74.002082,
+        "cuisine": [
+            "American"
+        ],
+        "rating": 4.7,
+        "votes": 52
+    },
+    {
+        "name": "Mu Ramen",
+        "address": "1209 Jackson Ave, Queens, NY 11101",
+        "lat": 40.743797,
+        "lon": -73.950652,
+        "cuisine": [
+            "Asian"
+        ],
+        "rating": 4.4,
+        "votes": 94
+    },
+    {
+        "name": "Casa Enrique",
+        "address": "5-48 49th Ave, Queens, NY 11101",
+        "lat": 40.743394,
+        "lon": -73.954235,
+        "cuisine": [
+            "Mexican"
+        ],
+        "rating": 3.8,
+        "votes": 152
+    }
+]
