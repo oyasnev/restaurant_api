@@ -1,0 +1,14 @@
+{
+  "name": "free2move_restaurants",
+  "version": "1.0.0",
+  "description": "code challenge for free2move",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "poi"
+  ],
+  "author": "Oleg Yasnev",
+  "license": "ISC"
+}
