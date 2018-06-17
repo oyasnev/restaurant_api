@@ -4,6 +4,12 @@ const Restaurant = require('../models/restaurant');
 
 // ToDo: data validation and sanity checks
 
+// ToDo: add more entrypoints, e.g. to rate restaurants, 
+// search for cuisine, search within a certain range distance etc.
+
+// ToDo: more detailed error processing (e.g. to distinguish
+// between 'not found' and DB error)
+
 router.post('/add', async (ctx) => {
     try {
         const req = ctx.request.body;
