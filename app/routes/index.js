@@ -41,7 +41,25 @@ router.get('/get/:id', async (ctx) => {
             message: 'not found'
         }
     }
-})
+});
+
+router.get('/get/viewport/:lon1/:lat1/:lon2/:lat2', async (ctx) => {
+    try {
+        const rest = await Restaurant.find({ 
+            lon: {$gte: ctx.params.lon1, $lte: ctx.params.lon2},
+            lat: {$gte: ctx.params.lat1, $lte: ctx.params.lat2}
+        });
+        ctx.body = {
+            status: 'success',
+            data: rest
+        };
+    } catch (err) {
+        ctx.body = {
+            status: 'error',
+            message: 'not found'
+        }
+    }
+});
 
 router.put('/update/:id', async (ctx) => {
     try {
@@ -79,6 +97,6 @@ router.put('/update/:id', async (ctx) => {
             message: 'could not update the item'
         }
     }
-})
+});
 
 module.exports = router;
