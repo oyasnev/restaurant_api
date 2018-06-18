@@ -17,6 +17,3 @@ After that the API is accessible on the localhost:8000, and the database is on l
 * _/get/viewport/:lon1/:lat1/:lon2/:lat2_ - get list of restaurants within the specified viewport, where _(lon1, lat1)_ is a top-left corner, _(lon2, lat2)_ - a bottom-right corner.
 * _/add_ - add a restaurant
 * _/update/:id_ - update a restaurant with a certain id
-
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
