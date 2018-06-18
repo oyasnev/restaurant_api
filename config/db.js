@@ -1,4 +1,4 @@
 module.exports = {    
-    url: 'mongodb://localhost:27017/restaurants',
-    importData: false
+    url: 'mongodb://mongo:27017/restaurants',
+    importData: true
 };
